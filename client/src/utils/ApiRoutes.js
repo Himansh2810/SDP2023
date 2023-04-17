@@ -1,0 +1,21 @@
+export const host="http://localhost:5000";
+
+export const registerRoute = `${host}/api/auth/register`;
+export const loginRoute = `${host}/api/auth/login`;
+export const profileRoute = `${host}/api/auth/setProfile`;
+export const allUserRoute = `${host}/api/auth/allUsers`;
+export const statusRoute = `${host}/api/auth/onlineUsers`;
+export const sendMessageRoute =`${host}/api/messages/addmsg`;
+export const getAllMessageRoute =`${host}/api/messages/getmsg`;
+export const logoutRoute =`${host}/api/auth/activeUsers`;
+export const activeRoute =`${host}/api/auth/actives`;
+export const searchFriendsRoute =`${host}/api/auth/searchFriends`;
+export const addFriendsRoute =`${host}/api/auth/addFriends`;
+export const getUserDataRoute =`${host}/api/auth/getUserData`;
+export const getAllUsersRoute =`${host}/api/auth/getAllUsersDet`;
+export const delMsgRoute =`${host}/api/messages/delmsg`;
+export const blockUserRoute =`${host}/api/auth/blockUser`;
+export const unblockUserRoute =`${host}/api/auth/unblockUser`;
+export const deleteUserRoute =`${host}/api/auth/deleteUser`;
+export const sendFbRoute=`${host}/api/auth/sendfb`;
+export const getFbroute=`${host}/api/auth/getfb`;
